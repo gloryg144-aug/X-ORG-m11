@@ -1,5 +1,4 @@
 import { I, Reveal, Ticks } from "../lib/anim";
-import mentorImg from "../assets/mentor.jpg";
 
 const CREDS = [
   { icon: I.star, text: "B.Sc. — Kalyani University (বি.এসসি, কল্যাণী বিশ্ববিদ্যালয়)" },
@@ -20,7 +19,7 @@ export default function Instructor() {
               <div className="relative overflow-hidden rounded-lg border border-cream/15 bg-moss shadow-[0_40px_90px_-40px_rgba(0,0,0,0.9)]">
                 <Ticks />
                 <img
-                  src={mentorImg}
+                  src="/images/mentor.jpg"
                   alt="অলাউদ্দিন মণ্ডল — OXYCHEM-এর প্রতিষ্ঠাতা ও মেন্টর, হাতে ল্যাব ফ্লাস্ক"
                   className="aspect-[4/5] w-full object-cover transition-transform duration-700 hover:scale-[1.04]"
                   loading="lazy"
