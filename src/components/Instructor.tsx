@@ -1,5 +1,6 @@
 import { I, Reveal, Ticks } from "../lib/anim";
-import mentorImg from "../assets/mentor.jpg";
+
+const mentorImg = "/images/mentor.jpg";
 
 const CREDS = [
   { icon: I.star, text: "B.Sc. — Kalyani University (বি.এসসি, কল্যাণী বিশ্ববিদ্যালয়)" },
